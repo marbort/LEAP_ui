@@ -1,7 +1,0 @@
-source leaprc.protein.ff14SB
-prova = sequence { ACE ALA NME } 
-source leaprc.water.tip3p 
-solvatebox prova TIP3P Water 10.0
-charge prova
-check prova
-saveamberparm prova prova.parm7 prova.inpcrd
